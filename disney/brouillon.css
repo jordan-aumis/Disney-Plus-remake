@@ -1,0 +1,101 @@
+#hero {
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../assets/olp_hero_desktop_UKI_FR.jpg);
+    background-size: cover; 
+}
+#stayLeft{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+#set{
+    position: relative;
+    top: 80px;
+}
+
+#articleHero {
+    margin-left: 35px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+    width: 100%;
+}
+#col {
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+.condition {
+   color: #f9f9f9;
+   opacity: .7;
+   display: inline;
+   font-size: 14px;
+   font-weight: normal;
+   margin-top: 0px;
+}
+
+#smallCondition {
+    margin-top: 20px;
+    color: hsla(0,0%,75.3%,.8);
+    font-size: 10px;
+}
+
+.regist {
+    /* display: inline-block; */
+    width: 30%;
+    margin-right: 0px;
+}
+
+.regist p {
+        margin-bottom: 16px;
+        color: hsla(0,0%,75.3%,.8);
+        line-height: 1.5;
+}
+
+.heading {
+    font-size: 28px;
+    width: 100%;
+}
+
+.btn {
+    background-color: #0072d2;
+    border: 1px, solid, transparent;
+    width: 100%;
+    max-width: 340px;
+    min-width: auto;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    padding: 14px 12px;
+    font-size: 18px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 4px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+
+}
+#footerHero {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
